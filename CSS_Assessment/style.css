@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+}
+.span{
+    width: 100%;
+    position: fixed;
+}
+.box{
+    position: fixed;
+    top: 7%;
+    height: 60%;
+}
+#nav{
+    background-color: gray;
+    top: 0;
+}
+#left{
+    background-color: blue;
+    width: 50%;
+    left: 0;
+}
+#right{
+    background-color: red;
+    width: 25%;
+    right: 0;
+}
+#footer{
+    background-color: green;
+    bottom: 0;
+}
+#boxTextL{
+    padding-top: 25%;
+}
+#boxTextR{
+    padding-top: 50%;
+}
