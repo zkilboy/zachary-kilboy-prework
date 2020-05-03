@@ -2,12 +2,6 @@ body {
   background-color: rgba(121, 185, 198, 255);
   font-family: sans-serif;
 }
-.buffer-large{
-  margin-top: 8%;
-}
-.buffer-small{
-  margin-bottom: 20px;
-}
 .clear{
   background-color: transparent;
 }
