@@ -1,0 +1,29 @@
+body {
+  background-color: rgba(121, 185, 198, 255);
+  font-family: sans-serif;
+}
+.buffer-large{
+  margin-top: 8%;
+}
+.buffer-small{
+  margin-bottom: 20px;
+}
+.clear{
+  background-color: transparent;
+}
+#FDM{
+  color: white;
+  font-weight: bold;
+}
+#title{
+  color: white;
+  font-size: 76px;
+  font-weight: bold;
+}
+#button{
+  color: white;
+}
+button{
+  background-color: transparent;
+  color: white;
+}
