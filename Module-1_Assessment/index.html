@@ -4,34 +4,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Module 1 Assessment</title>
+  <title>Module 1 Assessment: About Me</title>
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<header>
-    <div id="hdr" class="jumbotron">
-        <div id="name">Zachary Kilboy</div>
-        <div id="navbar" class="navbar navbar-nav">
-            <div id="aboutNav">About</div>
-            <div id="portNav">Portfolio</div>
-            <div id="contNav">Contact</div>
+<body style="background-image: url('assets/images/tiles.jpg')">
+    <header style="background-color: white;">
+        <div id="navbar" class="navbar navbar-nav sticky-top navbar-light navbar-expand-md border-bottom p-0" style="border-color: #cccccc;">
+            <div id="bar" class="container">
+                <div id="name" class="navbar-brand text-white" style="background-color: #4aaaa5; padding: 15px; font-size: 25pt;">Zachary Kilboy</div>
+                <div id="navCont">
+                    <ul class="navbar-nav justify-content-end">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
-</header>
-<div id="title" class="jumbotron">About Me</div>
-<img src="assets/images/profile.jpg" alt="Profile Pic" class="img-fluid img-thumbnail" width="20%">
-<body>
-    <div id="meText"><p>My name is Zachary Kilboy. I am 28 years old. I have recently moved to the Minneapolis-St. Paul area.
+    </header>
+    <main class="container">
+        <div id="title" class="jumbotron my-5 p-4" style="border: 2px solid #dddddd; background-color: #ffffff;">
+            <h1 style="color:#4aaaa5">About Me</h1>
+            <hr class="my-4">
+            <img src="assets/images/profile.jpg" alt="Profile Pic" class="img-fluid float-left pr-3" width="20%">
+            <div id="meText" class="lead"><p>My name is Zachary Kilboy. I am 28 years old. I have recently moved to the Minneapolis-St. Paul area.
 I enjoy tinkering with electronics, mechanics, and all manner of systems. I keep a blog about my projects on a personal
 <a href="http://www.zkilboy.com">website</a>. The images used here are taken directly from my <a href="http://www.zkilboy.com">website</a>, if you are intrigued
 please check it out!</p><p>In 2015 I completed my BSc in Physics. I enjoy learning new things and 
 making connections between things I have learned. If I have learned anything in my pursuits it is that no event occurs in a 
 vacuum. Studying anything in isolation will only ever tell you part of the story, and there is always more story to tell.</p>    
-    </div>
+            </div>
+        </div>
+    </main>
+    <footer class="page-footer text-center font-small fixed-bottom" style="border-top: 5px solid #4aaaa5;">
+        <div id="copyBar" class="footer-copyright text-white py-3" style="background-color: #666666;">
+            <div id="copyText" style="position: absolute; bottom: 0%; left: 47%;">Copyright &copy;</div>
+        </div>
+    </footer>
 </body>
-<footer>
-    <div id="barBlock"></div>
-    <div id="copyBar">Copyright &copy;</div>
-
-</footer>
