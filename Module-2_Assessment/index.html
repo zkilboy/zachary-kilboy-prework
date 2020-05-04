@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Module 2 Assessment: Guessing Game</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body style="background-color: #989898;">
+    <main class="container">
+        <div style="padding-bottom:7%;">
+            <div class="row justify-content-center">
+                <div id="nintLogo">
+                    <div id="nintHead" class="container">Nintendo<sup>&copy;</sup></div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div id="hangTilt">
+                    <div id="hangHead" class="container"><h1>Hangman</h1></div>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="background-color: #fff898">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 id="character">Classic Game Characters</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-mb-6 justify-content-center">
+                    <img src="assets/images/default.jpg" alt="nintendo power" id="stage" style="width: 85%; padding-left: 15%;">
+                </div>
+                <div class="col-mb-6 justify-content-center">
+                    <h3>Press any key to start!</h3>
+                    <h3 id="wins"></h3>
+                    <hr>
+                    <h3 id="curCha">Current Character:</h3>
+                    <h3 id="currAnsw"></h3>
+                    <hr>
+                    <h3 id="GRFlag">Guesses Remaining:</h3>
+                    <h3 id="guesRema"></h3>
+                    <h3 id="AGFlag">Already Guessed:</h3>
+                    <h3 id="guesFals"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-mb-6 justify-content-center" style="padding-left: 15%;">
+                    <audio controls src="#" id="music">Audio not supported: <code>audio</code></audio>
+                    <audio id="winSong" src="assets/audio/win.mp3" preload="auto"></audio>
+                    <audio id="losSong" src="assets/audio/loss.mp3" preload="auto"></audio>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
