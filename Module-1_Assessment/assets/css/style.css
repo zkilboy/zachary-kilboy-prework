@@ -1,0 +1,23 @@
+.card{
+    border: none;
+    z-index: 0;
+    position: relative;
+    margin: 1rem auto;
+}
+.card-body{
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+header, h1, h2{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+main, ul, footer{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+main{
+    width: 960px;
+    align-items: center;
+}
