@@ -1,0 +1,8 @@
+# Module-2_Assessment: Classic Nintendo Characters Hangman
+Dev10 Prework: Module-2_Assessment - I have constructed a simple hangman game. Users are given 12 chances to guess the name of a classic videogame character from Nintendo properties (Mario, Zelda, Metroid).
+
+The game was constructed with basic vanilla JavaScript, designed mostly with bootstrap and a bit of css.
+
+This game contains copyright material to which I claim no ownership. Images, audio, and logos have been modified to optimize for this experience and are not meant to be construed as original works. IP holders should be self-evident.
+# How to play
+Users are required to guess the name of a classic Nintendo character letter-by-letter. Character names contain only english uppercase letters. If a user guesses a character that is not applicable or already guessed the user will not be penalized, but relevant text will flash red to indicate the guess has not changed game state. Should the user run out of guesses they will be alerted to the character's name, a somber music sting will play, and a new round will start. Should the user guess correctly they will be congratulated, a triumphant music sting will play, win tally will be updated, and a new round will start. In addition to the game interface on the right hand side, the user should see and hear relevant media (character picture and associated music) on the left hand side. The game is designed such that users need only dismiss alerts to continue playing. Enjoy!

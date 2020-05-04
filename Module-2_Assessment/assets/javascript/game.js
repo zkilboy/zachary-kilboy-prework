@@ -75,7 +75,6 @@ let game = {
     },
     checkLose: function(){
         if(guesRema < 1){
-            console.log('loss condition');
             document.getElementById('losSong').play();
             alert(`It was ${answ}, try again!`);
             prioAnsw = answ;
@@ -84,9 +83,7 @@ let game = {
         }
     },
     checkStroke: function(guess){
-        console.log('alive');
         if(answ.includes(guess)){
-            console.log('yes');
             for(var i = 0; i < answ.length; i++){
                 if(answ[i] == guess){
                     guesList[i] = guess;
@@ -95,7 +92,6 @@ let game = {
             game.checkWin();
         }
         else{
-            console.log('no');
             guesFals.push(guess);
             guesRema--;
             game.checkLose();
@@ -105,7 +101,6 @@ let game = {
     getStroke: function(event){
         var stroke = event.key.toUpperCase();
         if(guesList.includes(stroke)){
-            console.log('got it');
             game.gotFlash();
         }
         else{
