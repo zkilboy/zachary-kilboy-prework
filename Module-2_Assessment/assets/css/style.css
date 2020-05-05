@@ -12,7 +12,9 @@ sup{
     transform: scale(1.25, .75);
 }
 h1{
-    -webkit-transform: rotate(-30deg);
-    margin-left: -100%;
-    margin-top: -35%;
+    -webkit-transform: rotate(15deg);
+    margin: 5% 0% 5% -45%;
+    color: red;
+    text-shadow:black 0px 0px 5px;
+    font-size: 50px;
 }
